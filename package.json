@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
-    "bitgo": "^1.6.1",
+    "bitgo": "^4.30.1",
     "bluebird": "^3.3.5",
     "body-parser": "^1.15.1",
     "cheerio": "^0.20.0",
