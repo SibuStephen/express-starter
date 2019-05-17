@@ -1,0 +1,23 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-AXIOS-174505:
+    - bitgo > stellar-sdk > axios:
+        patched: '2019-05-17T23:41:02.069Z'
+  'npm:hawk:20160119':
+    - yui > request > hawk:
+        patched: '2019-05-17T23:41:02.069Z'
+  'npm:http-signature:20150122':
+    - yui > request > http-signature:
+        patched: '2019-05-17T23:41:02.069Z'
+  'npm:mime:20170907':
+    - yui > request > form-data > mime:
+        patched: '2019-05-17T23:41:02.069Z'
+  'npm:request:20160119':
+    - yui > request:
+        patched: '2019-05-17T23:41:02.069Z'
+  'npm:tunnel-agent:20170305':
+    - yui > request > tunnel-agent:
+        patched: '2019-05-17T23:41:02.069Z'
