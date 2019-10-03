@@ -10,7 +10,9 @@
     "start": "node app.js",
     "test": "NODE_ENV=test mocha",
     "test-ci": "NODE_ENV=test-travis mocha --reporter spec",
-    "test-debug": "NODE_ENV=test node_modules/.bin/mocha --debug --debug-brk"
+    "test-debug": "NODE_ENV=test node_modules/.bin/mocha --debug --debug-brk",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
@@ -65,7 +67,8 @@
     "twit": "^2.2.4",
     "uglify-js": "^2.6.2",
     "validator": "^5.2.0",
-    "yui": "^3.18.1"
+    "yui": "^3.18.1",
+    "snyk": "^1.230.5"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
@@ -96,5 +99,6 @@
     "security",
     "bcrypt",
     "zxcvbn"
-  ]
+  ],
+  "snyk": true
 }
