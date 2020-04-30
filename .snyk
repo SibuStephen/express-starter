@@ -1,0 +1,52 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - bitgo > lodash:
+        patched: '2020-04-30T23:41:32.907Z'
+    - bitgo > @bitgo/unspents > lodash:
+        patched: '2020-04-30T23:41:32.907Z'
+    - express-validator > lodash:
+        patched: '2020-04-30T23:41:32.907Z'
+    - lodash:
+        patched: '2020-04-30T23:41:32.907Z'
+    - cheerio > lodash:
+        patched: '2020-04-30T23:41:32.907Z'
+    - knex > lodash:
+        patched: '2020-04-30T23:41:32.907Z'
+    - node-linkedin > lodash:
+        patched: '2020-04-30T23:41:32.907Z'
+    - sequelize > lodash:
+        patched: '2020-04-30T23:41:32.907Z'
+    - bitgo > prova-lib > lodash:
+        patched: '2020-04-30T23:41:32.907Z'
+    - bitgo > ripple-lib > lodash:
+        patched: '2020-04-30T23:41:32.907Z'
+    - bitgo > stellar-sdk > lodash:
+        patched: '2020-04-30T23:41:32.907Z'
+    - bitgo > ripple-lib > ripple-binary-codec > lodash:
+        patched: '2020-04-30T23:41:32.907Z'
+    - bitgo > ripple-lib > ripple-lib-transactionparser > lodash:
+        patched: '2020-04-30T23:41:32.907Z'
+    - bitgo > stellar-sdk > stellar-base > lodash:
+        patched: '2020-04-30T23:41:32.907Z'
+    - bitgo > ripple-lib > ripple-hashes > ripple-binary-codec > lodash:
+        patched: '2020-04-30T23:41:32.907Z'
+    - bitgo > stellar-sdk > stellar-base > js-xdr > lodash:
+        patched: '2020-04-30T23:41:32.907Z'
+    - sendgrid > smtpapi > esdoc > babel-generator > lodash:
+        patched: '2020-04-30T23:41:32.907Z'
+    - sendgrid > smtpapi > esdoc > babel-traverse > lodash:
+        patched: '2020-04-30T23:41:32.907Z'
+    - sendgrid > smtpapi > esdoc > cheerio > lodash:
+        patched: '2020-04-30T23:41:32.907Z'
+    - twilio > request > form-data > async > lodash:
+        patched: '2020-04-30T23:41:32.907Z'
+    - sendgrid > smtpapi > esdoc > ice-cap > cheerio > lodash:
+        patched: '2020-04-30T23:41:32.907Z'
+    - sendgrid > smtpapi > esdoc > babel-generator > babel-types > lodash:
+        patched: '2020-04-30T23:41:32.907Z'
+    - sendgrid > smtpapi > esdoc > babel-traverse > babel-types > lodash:
+        patched: '2020-04-30T23:41:32.907Z'
